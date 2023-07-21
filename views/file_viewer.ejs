@@ -29,7 +29,7 @@
         </div>
     </form>
     <div>
-        <p id="total-rows">Total Rows: <%=length%>
+        <p id="total-rows">Total Rows: <%=Math.min(data.length, 100)%>
         </p>
     </div>
 </div>
@@ -47,7 +47,7 @@
             </tr>
         </thead>
         <tbody>
-            <% for(let row of data) { %>
+            <!-- <% for(let row of data) { %>
                 <tr>
                     <% for(let key of Object.keys(row)) { %>
                         <td>
@@ -55,6 +55,15 @@
                         </td>
                         <% } %>
                 </tr>
+                <% } %> -->
+
+
+                <% for (let i = 0; i < Math.min(data.length, 99); i++) { %>
+                    <tr>
+                        <% for (let key of Object.keys(data[i])) { %>
+                            <td><%= data[i][key] %></td>
+                        <% } %>
+                    </tr>
                 <% } %>
         </tbody>
     </table>

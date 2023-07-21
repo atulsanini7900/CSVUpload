@@ -1,6 +1,7 @@
 .body {
   margin: 0;
   padding: 0;
+  background-color: aqua;
 }
 
 /* .container {
@@ -26,7 +27,7 @@
   margin: auto;
   width: 70%;
   height: 150px;
-  background-color: #f8f8f8;
+  background-color: #e4f8a9;
   border: 2px dashed lightgrey;
 }
 .upload-btn {
@@ -72,7 +73,7 @@ td {
   padding: 12px;
 }
 th {
-  background-color: #eee;
+  background-color:#006c80;
   font-weight: bold;
 }
 td {
