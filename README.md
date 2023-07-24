@@ -10,9 +10,8 @@ This is a straightforward project developed using JavaScript, incorporating Node
 Github Link:- https://github.com/atulsanini7900/CSVUpload
 
 ## 🔗 Live Demo
-Render Link:- https://csv-upload-92ql.onrender.com/
+Render Link:- https://csv-upload-92ql.onrender.com/     (In some cases render.com takes long time and HTTP ERROR 502 is given as I have hosted my website on free render plan so don't panic)
 
-- PC💻(File View Page)
 
 ## Brief Information
 This project is a simple application built using JavaScript, with the utilization of Node.js, Express, Mongoose, EJS, and other relevant technologies. Its core purpose is to facilitate the uploading of CSV files on the website
